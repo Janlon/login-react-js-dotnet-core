@@ -1,14 +1,13 @@
 ## Login feito com React utilizando DotNetCore2 e Token de segurança JWT
 
-![cSharp Logo](/images/charp.png)
-Format: ![Alt Text]
 
+#### Descrição 
 Ao tentar se logar no sistema o React consome a Api que retorna um token de autenticação.
 
 *O sistema utiliza banco de dados [localDB] utilizando o framework Identidy padrão do DotNet, como 
 estamos usando o Identidy podemos alterar a base de dados apenas adicionando a string de conexao que o Identidy se encarrega de criar as tabelas*
 
-
+Este modelo segue uma estrutura Bootstrap-React de estilo mobile.
 
 *Para utilizar é necessário que instale a versão mais recente do react, a versão e suas depencias estão informadas aqui:*
  
@@ -71,5 +70,5 @@ estamos usando o Identidy podemos alterar a base de dados apenas adicionando a s
     - api\Models\IdentityInitializer.cs*
    
  
-#### Obs: É imprensindivel que essas informações nunca fiquem no código **(estão apenas para estudo)**
+#### Obs: É fundamental que essas informações nunca fiquem no código **(estão apenas para estudo)**
                 
