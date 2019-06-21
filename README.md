@@ -1,4 +1,4 @@
-##Login feito com React utilizando DotNetCore2 com C# e Token de segurança JWT
+##Login feito com React utilizando DotNetCore2 e Token de segurança JWT
 
 Ao tentar se logar no sistema o React consome a Api que retorna um token de autenticação.
 
