@@ -35,14 +35,14 @@ Este modelo segue uma estrutura Bootstrap-React de estilo mobile.
   - Utilizar para salvar histórico de Acessos e/ou Tentativas.
 
 
-3. Será adicionado Acesso de **2 fatores**. (Opcional para o Usuário)
+3. Será adicionado Acesso de **2 fatores**. (Opcional para o Usuário).
   - Melhorar o sistema de segurança.
 
 
 4. Será adicionado **Funcionalidades**.
   - Esqueceu a Senha?
-  - Requireds
-  - Alertas (Customizados)
+  - Requireds.
+  - Alertas (Customizados).
 
 
 5. Melhoria no código do React (Clean Code).
