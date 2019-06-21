@@ -1,5 +1,7 @@
 ## Login feito com React utilizando DotNetCore2 e Token de segurança JWT
 
+![alt text](https://camo.githubusercontent.com/dd73205c443cd1f009ed0d81b7d748d01a917f31/68747470733a2f2f696d672e736869656c64732e696f2f6e706d2f762f72656163742d69636f6e732e7376673f7374796c653d666c61742d737175617265)
+
 
 #### Descrição 
 Ao tentar se logar no sistema o React consome a Api que retorna um token de autenticação.
