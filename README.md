@@ -10,7 +10,7 @@ Ao tentar se logar no sistema o React consome a Api que retorna um token de aute
 
 Este modelo segue uma estrutura Bootstrap-React de estilo mobile.
 
-*Para utilizar é necessário que instale a versão mais recente do react, a versão e suas depencias estão informadas aqui:*
+*Para utilizar é necessário que instale a versão mais recente do react, a versão e suas dependências estão informadas aqui:*
  
  "dependencies"
  
