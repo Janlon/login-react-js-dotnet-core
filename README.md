@@ -69,6 +69,5 @@ estamos usando o Identidy podemos alterar a base de dados apenas adicionando a s
 *api\Models\IdentityInitializer.cs*
  
  
-****Obs: É imprensindivel que essas informações nunca fiquem no código
-                (estão apenas para estudo)
+****Obs: É imprensindivel que essas informações nunca fiquem no código (estão apenas para estudo)****
                 
