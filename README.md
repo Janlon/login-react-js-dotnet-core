@@ -43,6 +43,7 @@ Este modelo segue uma estrutura Bootstrap-React de estilo mobile.
 
 4. Será adicionado **Funcionalidades**.
   - Esqueceu a Senha?
+  - Sou novo aqui.
   - Requireds.
   - Alertas (Customizados).
 
