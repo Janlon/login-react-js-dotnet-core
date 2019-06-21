@@ -1,4 +1,4 @@
-**Login feito com React js + utilizando DotNet Core2 com C# e Com Token de segurança JWT **
+##Login feito com React utilizando DotNetCore2 com C# e Token de segurança JWT
 
 Ao tentar se logar no sistema o React consome a Api que retorna um token de autenticação.
 
@@ -7,16 +7,16 @@ estamos usando o Identidy podemos alterar a base de dados apenas adicionando a s
 
 
 
-*Para utilizar é necessário que instale a versão mais recente do react, a versão e suas depencias estão informadas aqui:
- "dependencies": {
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-scripts": "3.0.1"
-  },
+*Para utilizar é necessário que instale a versão mais recente do react, a versão e suas depencias estão informadas aqui:*
+ "dependencies"
+    -"react": "^16.8.6",
+    -"react-dom": "^16.8.6",
+    -"react-scripts": "3.0.1"
+  
   
    Na api é necessario o Core2
-     <TargetFramework>netcoreapp2.2</TargetFramework>
-  *
+     -netcoreapp2.2
+  
 
 ---
 
