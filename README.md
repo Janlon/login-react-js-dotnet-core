@@ -20,6 +20,7 @@ estamos usando o Identidy podemos alterar a base de dados apenas adicionando a s
   
   
   Na api é necessario o Core2
+  
     - netcoreapp2.2
   
 ---
@@ -60,15 +61,15 @@ estamos usando o Identidy podemos alterar a base de dados apenas adicionando a s
 
 ## Como Usar e Configurações Iniciais
 
-- Caso precise alterar a url e a porta
+ Caso precise alterar a url e a porta
  
-  --api\Properties\launchSettings.json*
+    - api\Properties\launchSettings.json*
 
 
-- para alterar a senha Inicial
+ Para alterar a senha Inicial
 
- --api\Models\IdentityInitializer.cs
- 
+    - api\Models\IdentityInitializer.cs*
+   
  
 #### Obs: É imprensindivel que essas informações nunca fiquem no código **(estão apenas para estudo)**
                 
