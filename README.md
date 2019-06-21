@@ -4,9 +4,9 @@
 #### Descrição 
 Ao tentar se logar no sistema o React consome a Api que retorna um token de autenticação.
 
-*O sistema utiliza banco de dados [localDB] utilizando o framework Identidy padrão do DotNet. 
+*O sistema utiliza banco de dados [localDB] utilizando o framework Identidy padrão do DotNet.* 
 
-Como estamos usando o Identidy podemos alterar a base de dados apenas adicionando a string de conexao que o Identidy se encarrega de criar as tabelas*
+##### Como estamos usando o Identidy podemos alterar a base de dados apenas adicionando a string de conexao que o Identidy se encarrega de criar as tabelas
 
 Este modelo segue uma estrutura Bootstrap-React de estilo mobile.
 
