@@ -1,17 +1,33 @@
-**Edit a file, create a new file, and clone from Bitbucket in under 2 minutes**
+**Login feito com React js + utilizando DotNet Core2 com C# e Com Token de segurança JWT **
 
-When you're done, you can delete the content in this README and update the file with details for others getting started with your repository.
+Ao tentar se logar no sistema o React consome a Api que retorna um token de autenticação.
 
-*We recommend that you open this README in another tab as you perform the tasks below. You can [watch our video](https://youtu.be/0ocf7u76WSo) for a full demo of all the steps in this tutorial. Open the video in a new tab to avoid leaving Bitbucket.*
+*O sistema utiliza banco de dados [localDB] utilizando o framework Identidy padrão do DotNet, como 
+estamos usando o Identidy podemos alterar a base de dados apenas adicionando a string de conexao que o Identidy se encarrega de criar as tabelas*
+
+
+
+*Para utilizar é necessário que instale a versão mais recente do react, a versão e suas depencias estão informadas aqui:
+ "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-scripts": "3.0.1"
+  },
+  
+   Na api é necessario o Core2
+     <TargetFramework>netcoreapp2.2</TargetFramework>
+  *
 
 ---
 
-## Edit a file
+## Próximas Melhorias para o Sistema
 
-You’ll start by editing this README file to learn how to edit a file in Bitbucket.
-
-1. Click **Source** on the left side.
-2. Click the README.md link from the list of files.
+1. Adicionar **Criptografia** no envio e no recebimento das informações.
+  - Ao consumir a API as informações podem ser interceptadas, por isso será adiciona um sistema de criptografia de descritografia.
+  
+2. Adicionar Sistema de **Log**.
+  - Utilizar para salvar histórico de Acessos e/ou Tentativas.
+  
 3. Click the **Edit** button.
 4. Delete the following text: *Delete this line to make a change to the README from Bitbucket.*
 5. After making your change, click **Commit** and then **Commit** again in the dialog. The commit page will open and you’ll see the change you just made.
