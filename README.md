@@ -1,7 +1,7 @@
 ## Login feito com React utilizando DotNetCore2 e Token de segurança JWT
 
-![GitHub Logo](/images/logo.png)
-Format: ![Alt Text](url)
+![cSharp Logo](/images/charp.png)
+Format: ![Alt Text]
 
 Ao tentar se logar no sistema o React consome a Api que retorna um token de autenticação.
 
@@ -58,5 +58,17 @@ estamos usando o Identidy podemos alterar a base de dados apenas adicionando a s
 
 ---
 
-## Como Usar
+## Como Usar e Configurações Iniciais
 
+- Caso precise alterar a url e a porta
+ 
+ *api\Properties\launchSettings.json*
+
+- para alterar a senha Inicial
+
+*api\Models\IdentityInitializer.cs*
+ 
+ 
+****Obs: É imprensindivel que essas informações nunca fiquem no código
+                (estão apenas para estudo)
+                
