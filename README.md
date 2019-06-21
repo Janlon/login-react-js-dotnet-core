@@ -1,5 +1,8 @@
 ## Login feito com React utilizando DotNetCore2 e Token de segurança JWT
 
+![GitHub Logo](/images/logo.png)
+Format: ![Alt Text](url)
+
 Ao tentar se logar no sistema o React consome a Api que retorna um token de autenticação.
 
 *O sistema utiliza banco de dados [localDB] utilizando o framework Identidy padrão do DotNet, como 
