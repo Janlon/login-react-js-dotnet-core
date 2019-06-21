@@ -1,4 +1,4 @@
-##Login feito com React utilizando DotNetCore2 e Token de segurança JWT
+## Login feito com React utilizando DotNetCore2 e Token de segurança JWT
 
 Ao tentar se logar no sistema o React consome a Api que retorna um token de autenticação.
 
@@ -9,41 +9,42 @@ estamos usando o Identidy podemos alterar a base de dados apenas adicionando a s
 
 *Para utilizar é necessário que instale a versão mais recente do react, a versão e suas depencias estão informadas aqui:*
  "dependencies"
-    -"react": "^16.8.6",
-    -"react-dom": "^16.8.6",
-    -"react-scripts": "3.0.1"
+    - "react": "^16.8.6",
+    - "react-dom": "^16.8.6",
+    - "react-scripts": "3.0.1"
   
   
-   Na api é necessario o Core2
-     -netcoreapp2.2
+  Na api é necessario o Core2
+    - netcoreapp2.2
   
-
 ---
 
 ## Próximas Melhorias para o Sistema
 
-1. Adicionar **Criptografia** no envio e no recebimento das informações.
+1. Será adicionado  **Criptografia** no envio e no recebimento das informações.
   - Ao consumir a API as informações podem ser interceptadas, por isso será adiciona um sistema de criptografia de descritografia.
   
-2. Adicionar Sistema de **Log**.
+2. Será adicionado Sistema de **Log**.
   - Utilizar para salvar histórico de Acessos e/ou Tentativas.
+
+3. Será adicionado Acesso de **2 fatores**. (Opcional para o Usuário)
+  - Melhorar o sistema de segurança.
   
-3. Click the **Edit** button.
-4. Delete the following text: *Delete this line to make a change to the README from Bitbucket.*
-5. After making your change, click **Commit** and then **Commit** again in the dialog. The commit page will open and you’ll see the change you just made.
-6. Go back to the **Source** page.
+4. Será adicionado **Funcionalidades**.
+  - Esqueceu a Senha?
+  - Requireds
+  - Alertas (Customizados)
+
+5. Melhoria no código do React (Clean Code).
 
 ---
 
-## Create a file
+## Correções e Bugs
 
-Next, you’ll add a new file to this repository.
+1. Necessário corrigir **Cors**
 
-1. Click the **New file** button at the top of the **Source** page.
-2. Give the file a filename of **contributors.txt**.
-3. Enter your name in the empty file space.
-4. Click **Commit** and then **Commit** again in the dialog.
-5. Go back to the **Source** page.
+*O Cross-Origin Resource Sharing ou 'compartilhamento de recursos de origem cruzada' cujo acrônimo é **CORS** é um padrão W3C sendo uma especificação de uma tecnologia de navegadores que define meios para um servidor permitir que seus recursos sejam acessados por uma página web de um domínio diferente.*
+
 
 Before you move on, go ahead and explore the repository. You've already seen the **Source** page, but check out the **Commits**, **Branches**, and **Settings** pages.
 
