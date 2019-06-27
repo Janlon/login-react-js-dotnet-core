@@ -27,10 +27,16 @@ Este modelo segue uma estrutura Bootstrap-React de estilo mobile.
   
 ---
 
-## Próximas Melhorias para o Sistema
 
-1. Será adicionado  **Criptografia** no envio e no recebimento das informações.
+
+### Foi Melhorado
+
+1. :heavy_check_mark: Será adicionado  **Criptografia** no envio e no recebimento das informações.
   - Ao consumir a API as informações podem ser interceptadas, por isso será adiciona um sistema de **[ criptografia & descriptografia ]**.
+  
+  
+  
+  ## Próximas Melhorias para o Sistema
   
   
 2. Será adicionado Sistema de **Log**.
