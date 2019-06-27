@@ -17,49 +17,36 @@ namespace ApiLogin.Controllers
     public class LoginsController : Controller
     {
        
-        // // POST api/logins
-        // [HttpPost]
-        //  public string Post(string data){
-                 
-        //     // if (string.IsNullOrEmpty(data)){
-        //          string retorno = "{\"Authenticated\":false, \"Message\": \"Falha ao autenticar\" }";
-        //         using (AesCryptoServiceProvider myAes = new AesCryptoServiceProvider())
-        //         { 
-        //             // Encrypt the string to an array of bytes.
-        //             byte[] encrypted = CryptDecript.EncryptStringToBytes_Aes(retorno, myAes.Key, myAes.IV);
-        //             string strEncrypted = Encoding.ASCII.GetString(encrypted);
+         // POST api/logins
+         [HttpPost]
+          public object Post([FromBody]object ciphertext,[FromServices]AccessManager accessManager){
 
-        //             return strEncrypted;
-        //     //    }
-        //     }
+            dynamic json = JsonConvert.DeserializeObject(ciphertext.ToString());
+            string msg  = json.ciphertext;
 
-        //     // Create a new instance of the AesCryptoServiceProvider
-        //     // class.  This generates a new key and initialization 
-        //     // vector (IV).
-        //     // using (AesCryptoServiceProvider myAes = new AesCryptoServiceProvider())
-        //     // { 
-        //     //     byte[] bytes = Encoding.ASCII.GetBytes(data);
-                
-        //     //     // Decrypt the bytes to a string.
-        //     //     string roundtrip = CryptDecript.DecryptStringFromBytes_Aes(bytes, myAes.Key, myAes.IV);
-              
-        //     //     // //Enviar para  o login
-        //     //     // var user = JsonConvert.DeserializeObject<User>(roundtrip);
-        //     //     // var retorno = Login(user, null);
-        //     //     // string strRetorno = retorno.ToString();
+            byte[] crypt = Convert.FromBase64String(msg);
+            byte[] keybytes = Encoding.UTF8.GetBytes("8080808080808080");
+            byte[] iv = Encoding.UTF8.GetBytes("8080808080808080");
 
-        //     //     // // Encrypt the string to an array of bytes.
-        //     //     // byte[] encrypted = CryptDecript.EncryptStringToBytes_Aes(strRetorno, myAes.Key, myAes.IV);
-        //     //     // string strEncrypted = Encoding.ASCII.GetString(bytes);
+            // Decrypt
+            var decripted = Crypto.Decrypt(crypt, keybytes, iv);
+           
+            //Enviar para o login
+            User user = JsonConvert.DeserializeObject<User>(decripted);
+            object obj = Login(user,accessManager);
+            string output = JsonConvert.SerializeObject(obj);
 
-        //     //     return roundtrip;
-     
-        //     // }
+            // Encrypt
+            byte[] encrypted = Crypto.Encrypt(output, keybytes, iv);
         
-        // }  
+            return new
+            {
+                Message = encrypted
+            };
+         }  
 
    
-        public object Post([FromBody]User usuario,[FromServices]AccessManager accessManager)
+        public object Login([FromBody]User usuario,[FromServices]AccessManager accessManager)
         {
             if (accessManager.ValidateCredentials(usuario))
             {

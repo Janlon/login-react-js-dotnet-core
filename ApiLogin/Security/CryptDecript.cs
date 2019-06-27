@@ -5,9 +5,16 @@ using System.Security.Cryptography;
 
 namespace ApiLogin.Security
 {
-    public class CryptDecript
+    public class Crypto
     {
-        public static byte[] EncryptStringToBytes_Aes(string plainText, byte[] Key, byte[] IV)
+
+        public string plainText { get; set; }
+        public byte[] Key { get; set; }
+        public byte[] IV { get; set; }
+        public byte[] cipherText{get;set;}
+    
+
+        public static byte[] Encrypt(string plainText, byte[] Key, byte[] IV)
         {
             // Check arguments.
             if (plainText == null || plainText.Length <= 0)
@@ -48,7 +55,7 @@ namespace ApiLogin.Security
 
         }
 
-        public static string DecryptStringFromBytes_Aes(byte[] cipherText, byte[] Key, byte[] IV)
+        public static string Decrypt(byte[] cipherText, byte[] Key, byte[] IV)
         {
             // Check arguments.
             if (cipherText == null || cipherText.Length <= 0)

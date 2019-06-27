@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/olga/Documentos/Janlon/ApiLogin/ApiLogin.csproj": {}
+    "/home/olga/Documentos/Janlon/github_original/login-react-js-dotnet-core/ApiLogin/ApiLogin.csproj": {}
   },
   "projects": {
-    "/home/olga/Documentos/Janlon/ApiLogin/ApiLogin.csproj": {
+    "/home/olga/Documentos/Janlon/github_original/login-react-js-dotnet-core/ApiLogin/ApiLogin.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/olga/Documentos/Janlon/ApiLogin/ApiLogin.csproj",
+        "projectUniqueName": "/home/olga/Documentos/Janlon/github_original/login-react-js-dotnet-core/ApiLogin/ApiLogin.csproj",
         "projectName": "ApiLogin",
-        "projectPath": "/home/olga/Documentos/Janlon/ApiLogin/ApiLogin.csproj",
+        "projectPath": "/home/olga/Documentos/Janlon/github_original/login-react-js-dotnet-core/ApiLogin/ApiLogin.csproj",
         "packagesPath": "/home/olga/.nuget/packages/",
-        "outputPath": "/home/olga/Documentos/Janlon/ApiLogin/obj/",
+        "outputPath": "/home/olga/Documentos/Janlon/github_original/login-react-js-dotnet-core/ApiLogin/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/share/dotnet/sdk/NuGetFallbackFolder"

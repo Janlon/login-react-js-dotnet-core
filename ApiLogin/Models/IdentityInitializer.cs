@@ -41,14 +41,14 @@ namespace ApiLogin.Security
                 CreateUser(
                     new ApplicationUser()
                     {
-                        UserName = "admin_api", // UserID
-                        Email = "admin_api@teste.com.br",
+                        UserName = "Admin123", // UserID
+                        Email = "admin@teste.com.br",
                         EmailConfirmed = true
-                    }, "Admin_api123", Roles.RoleApiUsuarios); //Password
+                    }, "Senha@123", Roles.RoleApiUsuarios); //Password
 
                     // {
-                    // 	"UserID" : "admin_api",
-                    // 	"Password" :"Admin_api123"
+                    // 	"UserID" : "Admin123",
+                    // 	"Password" :"Senha@123"
                     // }
 
                 CreateUser(

@@ -12,3 +12,17 @@
 /home/olga/Documentos/Janlon/ApiLogin/obj/Debug/netcoreapp2.2/ApiLogin.RazorTargetAssemblyInfo.cache
 /home/olga/Documentos/Janlon/ApiLogin/obj/Debug/netcoreapp2.2/ApiLogin.dll
 /home/olga/Documentos/Janlon/ApiLogin/obj/Debug/netcoreapp2.2/ApiLogin.pdb
+/home/olga/Documentos/Janlon/github_original/login-react-js-dotnet-core/ApiLogin/bin/Debug/netcoreapp2.2/ApiLogin.deps.json
+/home/olga/Documentos/Janlon/github_original/login-react-js-dotnet-core/ApiLogin/bin/Debug/netcoreapp2.2/ApiLogin.runtimeconfig.json
+/home/olga/Documentos/Janlon/github_original/login-react-js-dotnet-core/ApiLogin/bin/Debug/netcoreapp2.2/ApiLogin.runtimeconfig.dev.json
+/home/olga/Documentos/Janlon/github_original/login-react-js-dotnet-core/ApiLogin/bin/Debug/netcoreapp2.2/ApiLogin.dll
+/home/olga/Documentos/Janlon/github_original/login-react-js-dotnet-core/ApiLogin/bin/Debug/netcoreapp2.2/ApiLogin.pdb
+/home/olga/Documentos/Janlon/github_original/login-react-js-dotnet-core/ApiLogin/obj/Debug/netcoreapp2.2/ApiLogin.csprojAssemblyReference.cache
+/home/olga/Documentos/Janlon/github_original/login-react-js-dotnet-core/ApiLogin/obj/Debug/netcoreapp2.2/ApiLogin.csproj.CoreCompileInputs.cache
+/home/olga/Documentos/Janlon/github_original/login-react-js-dotnet-core/ApiLogin/obj/Debug/netcoreapp2.2/ApiLogin.RazorAssemblyInfo.cache
+/home/olga/Documentos/Janlon/github_original/login-react-js-dotnet-core/ApiLogin/obj/Debug/netcoreapp2.2/ApiLogin.RazorAssemblyInfo.cs
+/home/olga/Documentos/Janlon/github_original/login-react-js-dotnet-core/ApiLogin/obj/Debug/netcoreapp2.2/ApiLogin.AssemblyInfoInputs.cache
+/home/olga/Documentos/Janlon/github_original/login-react-js-dotnet-core/ApiLogin/obj/Debug/netcoreapp2.2/ApiLogin.AssemblyInfo.cs
+/home/olga/Documentos/Janlon/github_original/login-react-js-dotnet-core/ApiLogin/obj/Debug/netcoreapp2.2/ApiLogin.RazorTargetAssemblyInfo.cache
+/home/olga/Documentos/Janlon/github_original/login-react-js-dotnet-core/ApiLogin/obj/Debug/netcoreapp2.2/ApiLogin.dll
+/home/olga/Documentos/Janlon/github_original/login-react-js-dotnet-core/ApiLogin/obj/Debug/netcoreapp2.2/ApiLogin.pdb

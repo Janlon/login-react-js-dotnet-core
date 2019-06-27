@@ -5,31 +5,54 @@ export class Home extends Component {
 
   SigIn(data, api) {
 
-   // var CryptoJS = require("crypto-js");
+    var CryptoJS = require("crypto-js");
  
+    /**
+     * Usuario e Senha para testar
+     * UserID   => "Admin123"
+     * Password => "Senha@123"
+     * O retorna um token de validação 
+     */
+    
+                    
     // Encrypt
-   // var ciphertext = CryptoJS.AES.encrypt(JSON.stringify(data), 'secret key 123');
-    //var encrypted = ciphertext.toString();
-    //console.log(encrypted);
+    var msg = CryptoJS.enc.Utf8.parse(JSON.stringify(data));   
+    var key = CryptoJS.enc.Utf8.parse('8080808080808080');
+    var iv = CryptoJS.enc.Utf8.parse('8080808080808080');
+    var encryptedlogin = CryptoJS.AES.encrypt(msg, key,
+    {
+        keySize: 128/8,
+        iv: iv,
+        mode: CryptoJS.mode.CBC,
+        padding: CryptoJS.pad.Pkcs7
+    });
+
+    var encrypted = encryptedlogin.toString();
 
     fetch(api,{
       method:'POST',
       headers:{ 'Content-Type': 'application/json' },
-      //body:JSON.stringify({data:encrypted})
-      body:JSON.stringify({data})
+      body:JSON.stringify({ "ciphertext" : encrypted })
     })
     .then((response) => response.json())
     .then((responseJson) => { 
 
-      // // Decrypt
-      // var bytes  = CryptoJS.AES.decrypt(responseJson.toString(), 'secret key 123');
-      // var plaintext = bytes.toString(CryptoJS.enc.Utf8);
-      // //console.log(plaintext)
-
-      this.setState({message:responseJson.message});
+      // Decrypt
+      var bytes  = CryptoJS.AES.decrypt(responseJson.message, key,
+      {
+          keySize: 128/8,
+          iv: iv,
+          mode: CryptoJS.mode.CBC,
+          padding: CryptoJS.pad.Pkcs7
+      });
+       var json = JSON.parse(bytes.toString(CryptoJS.enc.Utf8));
+      
+      this.setState({message:json.Message});
 
       //retorno do token 
-      console.log(responseJson.accessToken)
+      console.log(json.AccessToken);
+      json.AccessToken == undefined ? null : alert(json.AccessToken);
+
      })
     .catch((error) => { console.error(error); });
   }
