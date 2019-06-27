@@ -28,7 +28,6 @@ Este modelo segue uma estrutura Bootstrap-React de estilo mobile.
 ---
 
 
-
 ### Foi Melhorado
 
 1. :heavy_check_mark: Será adicionado  **Criptografia** no envio e no recebimento das informações.
@@ -55,15 +54,6 @@ Este modelo segue uma estrutura Bootstrap-React de estilo mobile.
 
 
 5. Melhoria no código do React (Clean Code).
-
----
-
-
-## Correções e Bugs
-
-1. Necessário corrigir **Cors**
-
-*O Cross-Origin Resource Sharing ou 'compartilhamento de recursos de origem cruzada' cujo acrônimo é **CORS** é um padrão W3C sendo uma especificação de uma tecnologia de navegadores que define meios para um servidor permitir que seus recursos sejam acessados por uma página web de um domínio diferente.*
 
 
 ---
