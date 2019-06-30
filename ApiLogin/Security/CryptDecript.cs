@@ -8,10 +8,10 @@ namespace ApiLogin.Security
     public class Crypto
     {
 
-        public string plainText { get; set; }
-        public byte[] Key { get; set; }
-        public byte[] IV { get; set; }
-        public byte[] cipherText{get;set;}
+        // public string plainText { get; set; }
+        // public byte[] Key { get; set; }
+        // public byte[] IV { get; set; }
+        // public byte[] cipherText{get;set;}
     
 
         public static byte[] Encrypt(string plainText, byte[] Key, byte[] IV)
